@@ -14,6 +14,6 @@ class Squares
   end
 
   def difference
-    (sum_of_squares - square_of_sum).abs
+    square_of_sum - sum_of_squares
   end
 end
